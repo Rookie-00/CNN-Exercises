@@ -48,8 +48,6 @@ test_loader = DataLoader(dataset = test_set,batch_size = batch_size,shuffle = Fa
 #         x = self.fc3(x)
 #         return x
 
-# import torch
-# import torch.nn as nn
 
 class Arcanum(nn.Module):
     def __init__(self):
